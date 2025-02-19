@@ -1,0 +1,12 @@
+[package]
+name = "mrakdown_engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chars = { path = "chars" }
+
+[workspace] #工作空间配置部分
+members = [ #工作空间成员
+  "chars",
+] #工作空间包含的成员项目
