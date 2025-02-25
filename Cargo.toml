@@ -7,6 +7,13 @@ edition = "2021"
 chars = { path = "chars" }
 u8unit = { path = "u8unit"}
 
+[dev-dependencies]
+criterion = "0.4"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
+
 [workspace] #工作空间配置部分
 members = [ #工作空间成员
   "chars",

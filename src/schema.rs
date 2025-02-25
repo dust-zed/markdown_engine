@@ -11,7 +11,6 @@ pub trait Schema {
     fn h5_end() -> &'static str;
     fn h6_start() -> &'static str;
     fn h6_end() -> &'static str;
-    fn is_header_end() -> bool;
 }
 
 pub struct HtmlSchema;
@@ -65,9 +64,6 @@ impl Schema for HtmlSchema {
         "</h6>"
     }
 
-    fn is_header_end() -> bool {
-        true
-    }
 }
 
 impl HtmlSchema {
