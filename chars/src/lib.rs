@@ -6,13 +6,6 @@ use std::{
 };
 
 //使用&str的版本
-enum U8Unit {
-    OneByte([u8; 1]),
-    TwoByte([u8; 2]),
-    ThreeByte([u8; 3]),
-    FourByte([u8; 4]),
-}
-
 const BUF_SIZE: usize = 4;
 
 struct Chars<'a> {

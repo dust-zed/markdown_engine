@@ -11,4 +11,9 @@ name = "mrakdown_engine"
 version = "0.1.0"
 dependencies = [
  "chars",
+ "u8unit",
 ]
+
+[[package]]
+name = "u8unit"
+version = "0.1.0"

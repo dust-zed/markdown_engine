@@ -5,8 +5,10 @@ edition = "2021"
 
 [dependencies]
 chars = { path = "chars" }
+u8unit = { path = "u8unit"}
 
 [workspace] #工作空间配置部分
 members = [ #工作空间成员
   "chars",
+  "u8unit"
 ] #工作空间包含的成员项目
